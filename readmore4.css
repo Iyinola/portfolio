@@ -1,0 +1,116 @@
+.image{
+		background-image: url(images/jconnect.png);
+		min-height: 450px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover ;
+		background-attachment: scroll;
+	}
+
+	.overlay{
+		width: 100%;
+		height: 450px;
+		background-color: rgba(30, 30, 30, 0.5);
+	}
+
+	a:hover{
+		color: black;
+	}
+
+	a.btn:hover{
+		color: black;
+	}
+
+	.image a{
+		color: white;
+		
+	}
+
+	.links{
+		position: relative;
+		top: 37px;
+		margin-left: 50px;
+	}
+
+	.primary, #primary {
+		color: rgb(182, 108, 255);
+	}
+
+	#role{
+		margin-left: 200px;
+	}
+
+	#days{
+		margin-left: 200px;
+	}
+
+	@font-face {
+	  font-family: customFont;
+	  src: url(../../assets/googlefonts/Gelasio/Gelasio-Regular.ttf);
+	}
+
+	 h2{
+		font-family: customFont, Arial, sans-serif;
+	}
+
+	hr{
+		background-color: #EBEBEB;
+		width: 200px;
+		margin-top: 0px;
+	}
+
+	.description{
+		justify-content: center;
+	}
+
+	.description span{
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+
+	.video{
+		margin-top: 30px;
+		justify-content: center;
+	}
+
+	.btn{
+		background-color: rgb(182, 108, 255);
+      	border: 3px solid white;
+      	color: white;
+      	padding: 8px;
+      	margin-left: 25%;
+      	border-radius: 10px;
+	}
+
+	a:hover{
+		color: black;
+	}
+
+	a.btn:hover{
+		color: black;
+	}
+
+	.footer{
+		background-color: #EBEBEB;
+		margin-top: 70px;
+		height: 300px;
+	}
+
+	.footer h5{
+		display: inline-block;
+	}
+
+	.fixed{
+		position: fixed;
+		/*top: 600px;*/
+		bottom: 0px;
+		right: 30px;
+	}
+
+	#icons a {
+		color: black;
+	}
+
+	a, .nav-link,#icons a :hover {
+		color: rgb(182, 108, 255);
+	}

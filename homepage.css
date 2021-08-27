@@ -1,0 +1,128 @@
+#bio{
+		box-sizing: border-box;
+		padding-right: 90px;
+	}
+
+	.image{
+		padding-left:100px;
+		margin-top: 40px;
+	}
+
+	.bio2{
+		margin-top: 100px;
+	}
+
+	hr{
+		background-color: black;
+		width: 90%;
+		margin-top: 30px;
+	}
+
+	.hr hr{
+		background-color: #EBEBEB;
+		width: 200px;
+		margin-top: 0px;
+	}
+
+	.primary{
+		color: #bf00ff;
+	}
+
+	.btn{
+		background-color: #bf00ff;
+      	border: 3px solid white;
+      	color: white;
+      	padding: 8px;
+      	margin-left: 25%;
+      	border-radius: 10px;
+	}
+
+	#icons a {
+		color: black;
+	}
+
+	#icons p{
+		font-size: 18px;
+	}
+
+	a, .nav-link,#icons a :hover, .project a:hover {
+		color: #bf00ff;
+	}
+
+	@font-face {
+	  font-family: customFont;
+	  src: url(../../assets/googlefonts/Gelasio/Gelasio-Regular.ttf);
+	}
+
+	#bio h1, .bio2 a, h2 {
+		font-family: customFont, Arial, sans-serif;
+	}
+
+	#bio h1{
+		font-size: 55px;
+		letter-spacing: 2px;
+	}
+
+	#bio p{
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+
+	.skills{
+			/*display: flex;*/
+			justify-content: center;
+		}
+
+	.star{
+			color: #bf00ff;
+		}
+
+	.project{
+		min-height: 300px;
+	}
+
+	.project p{
+		color: silver;
+	}
+
+	.project span{
+		font-size: 17px;
+	}
+
+	.project a{
+		color: black;
+	}
+
+	.projectimage{
+		height: 400px;
+		transition: transform 2.8s; /* Animation */
+	}
+
+	.projectimage:hover {
+  		transform: scale(0.6);
+	}
+
+	.fixed{
+		position: fixed;
+		/*top: 600px;*/
+		bottom: 0px;
+		right: 30px;
+	}
+
+	a:hover{
+		color: black;
+	}
+
+	a.btn:hover{
+		color: black;
+	}
+
+	.footer{
+		background-color: #EBEBEB;
+		margin-top: 70px;
+		height: 300px;
+	}
+
+	.footer h5{
+		display: inline-block;
+	}

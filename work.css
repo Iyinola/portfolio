@@ -1,0 +1,70 @@
+hr{
+			background-color: black;
+			width: 90%;
+			margin-top: 30px;
+	}
+	
+	.projects{
+		min-height: 350px;
+		justify-content: center;
+	}
+
+	@font-face {
+	  font-family: customFont;
+	  src: url(../../assets/googlefonts/Gelasio/Gelasio-Regular.ttf);
+	}
+
+	.projects h1{
+		font-family: customFont, Arial, sans-serif;
+	}
+
+	.projects h1{
+		font-weight: bold;
+	}
+
+	.projects span{
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+
+	.btn{
+		background-color: #bf00ff;
+      	border: 3px solid white;
+      	color: white;
+      	padding: 8px;
+      	margin-left: 25%;
+      	border-radius: 10px;
+	}
+
+	a:hover{
+		color: black;
+	}
+
+	a.btn:hover{
+		color: black;
+	}
+
+	.footer{
+		background-color: #EBEBEB;
+		margin-top: 70px;
+		height: 300px;
+	}
+
+	.footer h5{
+		display: inline-block;
+	}
+
+	.fixed{
+		position: fixed;
+		/*top: 600px;*/
+		bottom: 0px;
+		right: 30px;
+	}
+
+	#icons a {
+		color: black;
+	}
+
+	a, .nav-link,#icons a :hover {
+		color: #bf00ff;
+	}

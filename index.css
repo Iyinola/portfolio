@@ -1,0 +1,77 @@
+
+.overlay{
+		background-color: rgba(239, 239, 239, 0.3);
+		height: auto;
+		width: 100%;
+	}
+	#background{
+		background-image: url(images/workspace.jpg);
+		height: 655px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover ;
+
+	}
+
+	#bio{
+		margin-top: 100px;
+	}
+
+	h1{
+		color: black;
+		letter-spacing: 5px;
+	}
+
+	h4 {
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-size: 25px;
+    }
+  
+    .typed::before {
+        color: #bf00ff;
+        letter-spacing: 2px;
+        content: "Frontend Developer";
+        animation: animate infinite 7s;
+        padding-left: 10px;
+    }
+  
+    @keyframes animate {
+  
+        0% {
+            content: "a Frontend Developer";
+        	}
+  
+        20% {
+            content: "a UX Designer";
+        	}
+
+        40% {
+            content: "a Freelancer";
+        	}
+  
+        80% {
+            content: "a Product Manager";
+        	}
+
+		100% {
+             content: "an Accountant";
+        	}            
+       }
+
+      .btn{
+      	background-color: #bf00ff;
+      	border: 3px solid white;
+      	color: white;
+      	padding: 8px;
+      	border-radius: 5px;
+      }
+
+      a:hover{
+      	color: black;
+      }
+
+      img{
+      	border-radius: 60%;
+      }

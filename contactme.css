@@ -1,0 +1,107 @@
+.image{
+		background-image: url(images/contact2.jpg);
+		min-height: 500px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover ;
+		background-attachment: scroll;
+
+	}
+
+	@font-face {
+	  font-family: customFont;
+	  src: url(../../assets/googlefonts/Gelasio/Gelasio-Regular.ttf);
+	}
+
+	 h1{
+		font-family: customFont, Arial, sans-serif;
+	}
+
+	.image h1{
+		position: relative;
+		top: 130px;
+		margin-left: 160px;
+		letter-spacing: 2px;
+		font-size: 60px;
+		color: #bf00ff;
+	}
+
+	.btn{
+		background-color: #bf00ff;
+      	border: 3px solid white;
+      	color: white;
+      	padding: 8px;
+      	margin-left: 25%;
+      	border-radius: 10px;
+	}
+
+	#icons a {
+		color: black;
+	}
+
+	#icons p{
+		font-size: 18px;
+	}
+
+	a, .nav-link,#icons a :hover {
+		color: #bf00ff;
+	}
+
+	.fixed{
+		position: fixed;
+		bottom: 0px;
+		right: 30px;
+	}
+
+	.hire{
+		border: 1px solid #bf00ff;
+		border-radius: 10px;
+		min-height: 300px;
+	}
+
+	#hire{
+		box-sizing: border-box;
+		justify-content: center;
+		justify-content: space-around;
+		
+	}
+
+	.hire a{
+		color: #bf00ff;
+	}
+
+	.hire a:hover{
+
+	}
+
+	.primary{
+		color: #bf00ff;
+	}
+
+	.reachout{
+		margin-top: 80px;	
+	}
+
+	#reachout{
+		border: 1px solid #bf00ff;
+		justify-content: space-around;
+		border-radius: 10px;
+	}
+
+	a:hover{
+		color: black;
+	}
+
+	a.btn:hover{
+		color: black;
+	}
+
+	.footer{
+		background-color: #EBEBEB;
+		margin-top: 70px;
+		height: 300px;
+	}
+
+	.footer h5{
+		display: inline-block;
+	}
